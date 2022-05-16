@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+video {
+  width: 500px;
+}
+
+/* .video {
+  display: flex;
+  justify-content: center;
+} */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background: #6ed7fa;
+  padding: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+  margin-right: 150px;
+}
+
+a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+body {
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main {
+  margin: 10px;
+  max-width: 1000px;
+} */
+
+main {
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: 2rem;
+  margin-block: 3rem;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.video {
+  grid-column: 1 / span 1;
+}
+
+.tekst {
+  grid-column: 2 / span 1;
+}
+
+/* Typografi */
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  max-width: 65ch;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* iframe er ikke responsiv ved indsættelse, derfor skrives dette */
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+
+/* img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
