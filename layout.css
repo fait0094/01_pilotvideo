@@ -9,6 +9,7 @@
   background-color: #b9487172;
   color: white;
 }
+
 section {
   display: grid;
   justify-content: center;
@@ -18,7 +19,30 @@ section {
   max-width: 1000px;
 }
 
+#section_1 .container,
+#section_2 .container,
+#section_3 .container,
+#section_4 .container {
+  margin: 30px;
+}
+
+.portraet {
+  padding-bottom: 20px;
+}
+
+#section_3 img {
+  padding-block: 10px;
+}
+
+.layout {
+  height: 800px;
+}
+
 @media (min-width: 600px) {
+  .banner_tekst {
+    font-size: 2rem;
+  }
+
   #section_1 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
