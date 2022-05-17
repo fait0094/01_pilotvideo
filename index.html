@@ -11,23 +11,41 @@
   <body>
     <header class="banner">
       <div class="logo">
-        <a href="index.html">Passion</a>
+        <a href="index.html">PASSION</a>
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">Forside</a></li>
+          <li><a href="#section_1">OM</a></li>
 
-          <li><a href="side2.html">Galleri</a></li>
+          <li><a href="#section_2">VIDEO</a></li>
 
-          <li><a href="side3.html">Layoutdiagram</a></li>
+          <li><a href="#section_3">GALLERI</a></li>
+
+          <li><a href="#section_4">LAYOUT</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
-      <section class="section_1">
+      <div class="section_banner">
+        <img
+          class="billede_banner"
+          src="billeder/banner_test.jpg"
+          alt="Kvadrat
+        billede"
+        />
+
+        <div class="banner_tekst">MAKEUP</div>
+      </div>
+
+      <section id="section_1">
         <div class="outer_containers">
+          <div class="figure">
+            <img class="portrait" src="billeder/portrait.webp" alt="Portræt" />
+          </div>
+
           <div class="tekst_1">
-            <h3>Johannes passion for makeup</h3>
+            <h3>JOHANNES PASSION</h3>
             <p>
               Johanne er 22 år gammel og bor i København. Hendes interesse for
               makeup opstod, da hun var helt lille og blev introduceret til en
@@ -36,39 +54,33 @@
               lyst til med makeup.
             </p>
           </div>
-
-          <div class="figure">
-            <img src="billeder/johanne.webp" alt="Portræt" />
-          </div>
         </div>
       </section>
 
-      <section class="section_2">
+      <section id="section_2">
         <div class="outer_containers">
-          <h3>Pilotvideo</h3>
+          <h3>PILOTVIDEO</h3>
           <div class="container">
             <div class="video_1">
               <video src="passion_for_makeup_test.mp4" controls></video>
             </div>
 
-            <div class="video_2">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/GAeXJO-Y_z0"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/GAeXJO-Y_z0"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </section>
 
-      <section class="section_3">
+      <section id="section_3">
         <div class="outer_containers">
-          <h3>Galleri</h3>
+          <h3>GALLERI</h3>
           <div class="galleri">
             <img
               class="billede_1"
@@ -95,9 +107,9 @@
         </div>
       </section>
 
-      <section class="section_4">
+      <section id="section_4">
         <div class="outer_containers">
-          <h3>Layoutdiagram</h3>
+          <h3>LAYOUTDIAGRAM</h3>
           <img
             class="billede_1"
             src="billeder/pilotvideo_thumbnail.jpg"
@@ -105,6 +117,10 @@
           />
         </div>
       </section>
+
+      <footer>
+        <p>© Faith Velasquez Mansilungan</p>
+      </footer>
     </main>
   </body>
 </html>
